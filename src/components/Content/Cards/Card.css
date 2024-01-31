@@ -33,3 +33,19 @@
 }
 
 
+@media only screen and (max-width: 767px) {
+    .Card-root{
+        height: 60vh;
+        width: 50vw;
+        background-color: #34495e;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 1rem;
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+ }
