@@ -59,8 +59,10 @@ const MoviePage = () => {
   return (
     <div className="main-root">
       <Navbar></Navbar>
+      
+
       { !isForm ? (
-        <div className="main-div">
+          <div className="main-div">
           <div className="left-div">
             <img src={URL} alt="" />
           </div>
@@ -73,8 +75,8 @@ const MoviePage = () => {
             <div className="generes">
               <h3>Generes : </h3>
               {generes.map((item) => (
-                <h3>{item}</h3>
-              ))}
+                  <h3>{item}</h3>
+                  ))}
             </div>
             <div className="btns">
               <button onClick={handleClick} className="btn">
@@ -85,7 +87,7 @@ const MoviePage = () => {
           </div>
         </div>
       ) : (
-        <div className="form-root">
+          <div className="form-root">
             <div className="inner-form">
                     <label htmlFor="title">Movie Name</label>
                     <input type="text" name="tile" value={  "  "+title}></input> <br></br>
@@ -98,7 +100,7 @@ const MoviePage = () => {
             </div>
         </div>
       )}
-    </div>
+      </div>
   );
 };
 
