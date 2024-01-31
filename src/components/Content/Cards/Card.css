@@ -1,0 +1,35 @@
+.Card-root{
+    height: 60vh;
+    width: 20vw;
+    background-color: #34495e;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Card-root img {
+    height: 65%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.Card-root button {
+    margin-bottom: 1vh;
+    height: 5vh;
+    border: none;
+    border-radius: 2vh;
+    width: 90%;
+}
+
+.Card-root button:hover {
+    background-color: #506c7f;
+    color: white;
+    cursor: pointer;
+}
+
+

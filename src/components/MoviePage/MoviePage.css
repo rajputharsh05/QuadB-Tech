@@ -1,0 +1,114 @@
+.main-root{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+
+.main-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left-div{
+    padding-top: 15vh;
+    padding-left: 5vh;
+    width: 40vw;
+    height: 80vh;
+}
+
+.left-div img {
+    width: 90%;
+    height: 90%;
+    border-radius: 2rem;
+}
+
+
+.right-div{
+    width: 55vw;
+    margin-top: 12vh;
+    
+    height: 80vh;
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.right-div h1 {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.right-div p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.btns{
+    display: flex;
+    gap: 10vw;
+} 
+
+.btn{
+    width: 30%;
+    height: 10vh;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btn:hover{
+   background-color: #bdc3c7;
+   cursor: pointer;
+}
+
+.generes {
+    display: flex;
+    gap: 2vw;
+}
+
+
+.form-root{
+    padding: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-form{
+    background-color: #2c3e50;
+    height: 60vh;
+    width: 50vw;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-form input{
+     width: 80%;
+     border: none;
+     height: 7vh;
+     border-radius: 2rem;
+}
+
+
+.inner-form button{
+    width: 80%;
+    height: 8vh;
+    border: none;
+    border-radius: 2rem;
+}
+
+.inner-form button:hover{
+    background-color: #bdc3c7;
+    cursor: pointer;
+}
